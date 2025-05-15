@@ -20,4 +20,3 @@ for i,j in enumerate(todos):
 
 st.text_input(label="",placeholder="Add a todo",key="input",
               on_change=add_todo)
-st.session_state
